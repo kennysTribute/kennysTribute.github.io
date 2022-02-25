@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'aakar', sans-serif !important;
+}
+
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 70px;
+}
+
+.btn-primary{
+	box-shadow: none !important;
+	padding: 8px 25px;
+	border-radius: 2px !important;
+	border: 2px solid #3c366b !important;
+	color: #3c366b !important;
+	background: none !important;
+}
+
+audio{
+	display: none;
+}
+.btn-primary:hover{
+	background: black !important;
+	color: #fff !important;
+	border: 2px solid #fff !important;
+}
+
+#life #education li {
+	font-weight: bolder;
+}
+
+#national-recognition #recognition li{
+	font-weight: bolder;
+}
+
+#international-success #success li{
+	font-weight: bolder;
+}
+
+#quote #deep li{
+	font-weight: bolder;
+}
+
+#death #illness p{
+	font-weight: bolder;
+}
+
+#life{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#national-recognition{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#international-success{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#quote{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#death{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#movies{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#favourite{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+.title::before{
+	content: "";
+	background: #3c366b;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 50px;
+	transform: translateY(46px);
+}
+
+ul{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
+}
+
+ul li{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
+}
+
+#favourite li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	transition: .10s;
+	color: black;
+}
+
+footer p{
+	font-family: 'Ubuntu Light', sans-serif;
+}
+
+marquee strong{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
+}
